@@ -7,6 +7,7 @@ data:
       LinkURL: null
     in_repo_config:
       enabled:
+        spaily-inc/golang: true
         spaily/jx3-kubernetes: true
     plank: {}
     pod_namespace: jx
@@ -19,6 +20,7 @@ data:
         required-if-present-contexts: null
         skip-unknown-contexts: false
       merge_method:
+        spaily-inc/golang: merge
         spaily/jx3-kubernetes: merge
       queries:
       - labels:
@@ -31,6 +33,7 @@ data:
         - needs-rebase
         repos:
         - spaily/jx3-kubernetes
+        - spaily-inc/golang
       - labels:
         - updatebot
         missingLabels:
@@ -41,6 +44,7 @@ data:
         - needs-rebase
         repos:
         - spaily/jx3-kubernetes
+        - spaily-inc/golang
       target_url: http://lighthouse-jx.192.168.1.80.nip.io/merge/status
 kind: ConfigMap
 metadata:
