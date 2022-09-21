@@ -1,0 +1,22 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: spaily-inc
+    provider: github
+    repository: golang
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+  name: spaily-inc-golang
+  namespace: jx
+spec:
+  httpCloneURL: https://github.com/spaily-inc/golang.git
+  org: spaily-inc
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: golang
+  scheduler:
+    kind: ""
+    name: in-repo
+  url: https://github.com/spaily-inc/golang
