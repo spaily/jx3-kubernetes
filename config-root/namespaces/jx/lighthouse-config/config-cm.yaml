@@ -41,7 +41,7 @@ data:
         - needs-rebase
         repos:
         - spaily/jx3-kubernetes
-      target_url: http://lighthouse-jx./merge/status
+      target_url: http://lighthouse-jx.192.168.1.80.nip.io/merge/status
 kind: ConfigMap
 metadata:
   creationTimestamp: null
