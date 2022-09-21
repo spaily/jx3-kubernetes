@@ -10,6 +10,7 @@ spec:
     repositories:
     - name: gohttp
     - name: golang
+    - name: node-http
     scheduler: in-repo
   slack:
     channel: '#jenkins-x-pipelines'
