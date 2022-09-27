@@ -101,51 +101,6 @@
 	      <td></td>
 	      <td></td>
 	    </tr>
-    <tr>
-		      <td colspan='5'><h3>jx-observability</h3></td>
-		    </tr>
-	    <tr>
-	      <td>grafana-dashboard</td>
-	      <td title='A helm chart for packaging Grafana dashboards for Jenkins X'><a href='https://github.com/jenkins-x-charts/grafana-dashboard'> <img src='https://avatars.githubusercontent.com/u/7195757' width='24px' height='24px'> grafana-dashboard</a></td>
-	      <td>0.2.2</td>
-	      <td></td>
-	      <td><a href='https://github.com/jenkins-x-charts/grafana-dashboard'>source</a></td>
-	    </tr>
-    <tr>
-	      <td>loki</td>
-	      <td title='Loki: like Prometheus, but for logs.'><a href='https://grafana.com/loki'> <img src='https://raw.githubusercontent.com/grafana/loki/master/docs/sources/logo.png' width='24px' height='24px'> loki</a></td>
-	      <td>2.5.0</td>
-	      <td></td>
-	      <td><a href='https://github.com/grafana/loki'>source</a></td>
-	    </tr>
-    <tr>
-	      <td>promtail</td>
-	      <td title='Promtail is an agent which ships the contents of local logs to a Loki instance'><a href='https://grafana.com/loki'> <img src='https://raw.githubusercontent.com/grafana/loki/master/docs/sources/logo.png' width='24px' height='24px'> promtail</a></td>
-	      <td>3.5.0</td>
-	      <td></td>
-	      <td><a href='https://github.com/grafana/loki'>0</a> <a href='https://grafana.com/oss/loki/'>1</a> <a href='https://grafana.com/docs/loki/latest/'>2</a> </td>
-	    </tr>
-    <tr>
-	      <td>tempo</td>
-	      <td title='Grafana Tempo Single Binary Mode'><a href='https://grafana.net'> <img src='https://raw.githubusercontent.com/grafana/tempo/master/docs/tempo/website/logo_and_name.png' width='24px' height='24px'> tempo</a></td>
-	      <td>0.6.8</td>
-	      <td></td>
-	      <td><a href='https://github.com/grafana/tempo'>source</a></td>
-	    </tr>
-    <tr>
-	      <td>grafana</td>
-	      <td title='The leading tool for querying and visualizing time series and metrics.'><a href='https://grafana.net'> <img src='https://raw.githubusercontent.com/grafana/grafana/master/public/img/logo_transparent_400x.png' width='24px' height='24px'> grafana</a></td>
-	      <td>6.17.4</td>
-	      <td></td>
-	      <td><a href='https://github.com/grafana/grafana'>source</a></td>
-	    </tr>
-    <tr>
-	      <td>prometheus</td>
-	      <td title='Prometheus is a monitoring system and time series database.'><a href='https://prometheus.io/'> <img src='https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png' width='24px' height='24px'> prometheus</a></td>
-	      <td>13.6.0</td>
-	      <td></td>
-	      <td><a href='https://github.com/prometheus/alertmanager'>0</a> <a href='https://github.com/prometheus/prometheus'>1</a> <a href='https://github.com/prometheus/pushgateway'>2</a> <a href='https://github.com/prometheus/node_exporter'>3</a> <a href='https://github.com/kubernetes/kube-state-metrics'>4</a> </td>
-	    </tr>
 
   </tbody>
 </table>
