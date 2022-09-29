@@ -10,6 +10,7 @@ data:
         spaily-inc/gohttp: true
         spaily-inc/golang: true
         spaily-inc/node-http: true
+        spaily-inc/nody: true
         spaily/jx3-kubernetes: true
     plank: {}
     pod_namespace: jx
@@ -25,6 +26,7 @@ data:
         spaily-inc/gohttp: merge
         spaily-inc/golang: merge
         spaily-inc/node-http: merge
+        spaily-inc/nody: merge
         spaily/jx3-kubernetes: merge
       queries:
       - labels:
@@ -40,6 +42,7 @@ data:
         - spaily-inc/gohttp
         - spaily-inc/golang
         - spaily-inc/node-http
+        - spaily-inc/nody
       - labels:
         - updatebot
         missingLabels:
@@ -53,6 +56,7 @@ data:
         - spaily-inc/gohttp
         - spaily-inc/golang
         - spaily-inc/node-http
+        - spaily-inc/nody
       target_url: http://lighthouse-jx.192.168.1.80.nip.io/merge/status
 kind: ConfigMap
 metadata:

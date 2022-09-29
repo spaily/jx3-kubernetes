@@ -1,0 +1,22 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: spaily-inc
+    provider: github
+    repository: nody
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+  name: spaily-inc-nody
+  namespace: jx
+spec:
+  httpCloneURL: https://github.com/spaily-inc/nody.git
+  org: spaily-inc
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: nody
+  scheduler:
+    kind: ""
+    name: in-repo
+  url: https://github.com/spaily-inc/nody
