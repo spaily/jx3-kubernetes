@@ -11,6 +11,7 @@ spec:
     - name: gohttp
     - name: golang
     - name: node-http
+    - name: nody
     scheduler: in-repo
   slack:
     channel: '#jenkins-x-pipelines'
